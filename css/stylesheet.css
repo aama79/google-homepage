@@ -1,0 +1,258 @@
+*
+{
+	margin: 0;
+	padding: 0;
+}
+body, body
+ {
+	background-color: white;
+	text-align: center;
+}
+
+/*--- Top Navigation Header ----*/
+.topnavbar
+{
+	position: relative;
+	top: 0;
+	padding: 0;
+	width: 100%;
+	height: 50px;
+}
+
+.topnavbar:hover 
+{ 
+	cursor: default; 
+}
+
+.topapps, .toplinks
+{
+	float: right;
+	height: 100%;
+}
+
+.app 
+{
+		display: inline-block;
+		text-decoration: none;
+		border: none;
+		height: 100%;
+		margin: 0 6px 0;
+}
+
+.app:hover 
+{
+	cursor: default; 
+}
+
+.app div 
+{
+	position: relative;
+	background-image: url("../images/symbols.png");
+	background-repeat: no-repeat;
+	width: 30px;
+	height: 30px;
+	top: 50%;
+	margin-top: -15px;
+}
+
+.apps 
+{
+	background-position: -97px -57px;
+}
+
+.notify 
+{
+	background-position: -129px -57px;
+}
+
+.share 
+{
+	background-position: -326px -17px;
+}
+
+.photo 
+{
+	display: block;
+	position: relative;
+	width: 32px;
+	height: 32px;
+	top: 50%; 
+	margin-top: -16px;
+	margin-right: 20px;
+	border-radius: 25px;
+}
+
+.app  div {
+	opacity: 0.55;
+}
+
+.app div:hover {
+	opacity: 1.0;
+}
+.toplinks 
+{
+	line-height: 50px;
+}
+.topdos 
+{
+	padding: 0 8px 0;
+	text-decoration: none;
+	color: #404040;
+	font: small arial,sans-serif;
+}
+
+.topdos:hover 
+{
+	text-decoration: underline;
+}
+
+/*--- Search Section ----*/
+.content 
+{
+	position: relative;
+	width: 100%;
+	height: 100%;
+	min-height: 100px;
+	padding-top: 50px;
+}
+
+.logo {
+	position: relative;
+	width: 100%;
+	padding-top: 112px;
+}
+
+.ilogo
+{
+	display: block;
+	position: relative;
+	width: 269px;
+	height: 95px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.slogo
+{
+	display: block;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100px;
+	top: -25px;
+	right: -135px;
+	color: #777;
+	font: bold 16px arial, sans-serif;
+}
+
+.sfield {
+	width: 527px;
+	height: 30px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.sfield  input 
+{
+	position: relative;
+	width: 490px;
+	height: 80%;
+	padding-left: 5px;
+	float: left;
+}
+
+.aimg
+{
+	position: relative;
+	width: 14px;
+	height: 19px;
+	float: right;
+	padding: 5px;
+	opacity: 0.4;
+	left: -30px;
+}
+
+.aimg:hover
+{
+	opacity: 1.0;
+}
+.b_holder 
+{
+	border-radius: 0;
+	text-align: center;
+}
+
+input[type="button"]
+{
+
+	color: #444;
+	font-size: 11px;
+	font-weight: bold;
+	height: 29px;
+	padding: 0 8px;
+	position: relative;
+	margin: 15px 5px;
+
+}
+
+input[type="text"], textarea
+{
+	font-size: 1em;
+	
+}
+
+
+/*--- Footer ---*/
+
+.footer 
+{
+
+
+	background: #f2f2f2;
+    border-top: 1px solid #e4e4e4;
+	line-height: 40px;
+    min-width: 100%;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    height: 35px;
+
+
+}
+.dfooter
+{
+
+	display: inline;
+	padding: auto; 
+	position: relative;
+	height: 100%;
+	line-height: 35px;
+}
+
+.llinks 
+{
+    float: left;
+}
+.all
+{
+	margin-left: 30px;
+}
+.rlinks
+{
+    float: right;
+}
+.arl
+{
+	margin-right: 30px;
+}
+
+.aflikns
+{
+	text-decoration: none;
+    height: 100%;
+    color: #666;
+    font: small arial,sans-serif;
+}
+.aflinkns:hover
+{
+	text-decoration: underline;
+}
